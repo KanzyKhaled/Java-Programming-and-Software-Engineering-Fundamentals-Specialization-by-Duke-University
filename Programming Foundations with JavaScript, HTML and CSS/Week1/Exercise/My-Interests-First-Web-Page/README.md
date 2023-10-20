@@ -23,3 +23,10 @@ Let’s begin to add some content to the body of your web page. Between your bod
    
    7) Make a Table
    create a table, with at least two rows, including one header row. Use the table’s cells to organize text, images, or links for your web page.
+
+# Style Your Web Page with CSS
+  1)  Use CSS to style at least two HTML elements (paragraphs, headings, images etc.)
+
+  2)  Add IDs or classes to at least two HTML elements.
+
+  3)  Use CSS to style your IDs or classes.
