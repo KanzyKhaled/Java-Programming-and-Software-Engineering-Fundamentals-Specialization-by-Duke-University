@@ -1,0 +1,21 @@
+body{
+  background-color:#FFD9B3;
+}
+h1{
+  font-family:Arial;
+}
+canvas{
+  width:500px;
+  height:200px;
+  border: 1px solid black;
+}
+p {
+  margin: 20px;
+  font-size:20px;
+}
+input{
+  margin: 20px;
+  font-size:20px;
+}
+
+
