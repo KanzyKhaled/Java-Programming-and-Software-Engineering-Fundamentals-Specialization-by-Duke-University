@@ -14,7 +14,7 @@
 	D) - Modify the method closeToMe that has no parameters to call filterByDistance to print out the earthquakes within 1000 Kilometers to a specified city (such as Durham, NC).
 
 
-Assignment 2: Filtering by Depth
+# Assignment 2: Filtering by Depth
 
 1) add new methods to one class, the EarthQuakeClient class:
 	A) - Write the method filterByDepth.
@@ -25,7 +25,7 @@ Assignment 2: Filtering by Depth
 	   - This method has no parameters to use filterByDepth and print all the earthquakes from a data source whose depth is between a given minimum and maximum value. You should also print out the number of earthquakes found.
 
 
-Assignment 3: Filtering by Phrase in Title
+# Assignment 3: Filtering by Phrase in Title
 
 1) add new methods to one class, the EarthQuakeClient class:
 	A) - Write the method filterByPhrase
@@ -35,7 +35,7 @@ Assignment 3: Filtering by Phrase in Title
 	B) - Write the void method quakesByPhrase to use filterByPhrase and print all the earthquakes from a data source that have phrase in their title in a given position in the title. You should also print out the number of earthquakes found.
 
 
-Assignment 4: Finding the Closest Earthquakes to a Location
+# Assignment 4: Finding the Closest Earthquakes to a Location
 
 1) modify one class, the ClosestQuakes class:
 	A) - Complete the method getClosest
@@ -44,7 +44,7 @@ Assignment 4: Finding the Closest Earthquakes to a Location
 	   - The earthquakes should be in the ArrayList in order with the closest earthquake in index position 0.  If there are fewer then howMany earthquakes in quakeData, then the ArrayList returned would be the same size as quakeData.  
 
 
-Assignment 5: Finding the Largest Magnitude Earthquakes
+# Assignment 5: Finding the Largest Magnitude Earthquakes
 
 1) Write a new class named  LargestQuakes:
 	A) - Write a void method named findLargestQuakes that reads in earthquake data from a source and storing them into an ArrayList of type QuakeEntry. 
