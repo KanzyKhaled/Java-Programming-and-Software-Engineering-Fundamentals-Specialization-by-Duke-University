@@ -1,7 +1,8 @@
 # Assignment 1: Implementing Filters
 
 1) create several new filters:
-	A) - Write the class MagnitudeFilter that implements Filter.
+	
+ 	A) - Write the class MagnitudeFilter that implements Filter.
 		-This class should include private instance variables for a minimum and maximum magnitude.
 		-A constructor to initialize those variables.
 		-And a satisfies method that returns true if a QuakeEntry’s magnitude is between the minimum and maximum magnitudes, or equal to one of them. Otherwise it should return false.
@@ -36,7 +37,8 @@
 # Assignment 2: MatchAllFilter and Modification to the Interface
 
 1) Write a class named MatchAllFilter that can store and apply many filters:
-	A) - Write the class MatchAllFilter that implements Filter. 
+	
+ 	A) - Write the class MatchAllFilter that implements Filter. 
 		- This class has a private ArrayList of Filters that is created in the constructor that has no parameters. 
 		- This class has two methods
 			 1) a void method named addFilter with one Filter parameter that adds the Filter to its private ArrayList.
