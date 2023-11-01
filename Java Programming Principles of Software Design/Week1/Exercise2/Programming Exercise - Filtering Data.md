@@ -1,4 +1,4 @@
-Assignment 1: Implementing Filters
+# Assignment 1: Implementing Filters
 
 1) create several new filters:
 	A) - Write the class MagnitudeFilter that implements Filter.
@@ -33,7 +33,7 @@ Assignment 1: Implementing Filters
 
 
 
-Assignment 2: MatchAllFilter and Modification to the Interface
+# Assignment 2: MatchAllFilter and Modification to the Interface
 
 1) Write a class named MatchAllFilter that can store and apply many filters:
 	A) - Write the class MatchAllFilter that implements Filter. 
