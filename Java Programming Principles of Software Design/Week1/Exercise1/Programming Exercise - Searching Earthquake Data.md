@@ -1,4 +1,4 @@
-#Assignment 1: Filtering by Magnitude and Distance#
+# Assignment 1: Filtering by Magnitude and Distance #
 
 1)  modify one class, the EarthQuakeClient class:
 	A) - Write the method filterByMagnitude 
