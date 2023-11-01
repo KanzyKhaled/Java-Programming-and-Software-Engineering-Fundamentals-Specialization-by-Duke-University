@@ -6,7 +6,7 @@
 	   - This method has two parameters( ArrayList of type QuakeEntry named quakeData, double named magMin)
 	   - This method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData that have a magnitude larger than magMin. 
 
-        B) - Modify the method bigQuakes that has no parameters to use filterByMagnitude and print earthquakes above a certain magnitude, , and also print the number of such earthquakes.
+	B) - Modify the method bigQuakes that has no parameters to use filterByMagnitude and print earthquakes above a certain magnitude, , and also print the number of such earthquakes.
 
 	C) - Write the method filterByDistanceFrom
 	   - This method has three parameters( ArrayList of type QuakeEntry named quakeData, double named distMax, Location named from)
