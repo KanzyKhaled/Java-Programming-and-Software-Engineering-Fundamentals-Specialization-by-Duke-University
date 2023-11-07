@@ -1,4 +1,4 @@
-#WEEK 2 NOTES
+# WEEK 2 NOTES
 
 ###  Write a JavaScript program that modifies images
 
