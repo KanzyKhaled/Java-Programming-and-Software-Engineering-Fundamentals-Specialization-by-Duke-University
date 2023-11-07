@@ -1,0 +1,59 @@
+Assignment 1: Sort by Depth
+
+1)  modify the QuakeSortInPlace class:
+	A) - Write the method getLargestDepth 
+	   - This method has two parameters( ArrayList of type QuakeEntry named quakeData,  int named from representing an index position in the ArrayList)
+	   - This method returns an integer representing the index position of the QuakeEntry with the largest depth considering only those QuakeEntry’s from position from to the end of the ArrayList.
+
+	B) - Write the void method sortByLargestDepth
+	   - This method has one parameter( ArrayList of type QuakeEntry named in)
+	   - This method sorts the QuakeEntry’s in the ArrayList by depth using the selection sort algorithm, 
+	     but in reverse order from largest depth to smallest depth (the QuakeEntry with the largest depth should be in the 0th position in the ArrayList).
+ 	   - This method should call the method getLargestDepth repeatedly until the ArrayList is sorted. 
+
+	C) - Modify the testSort method
+	   - comment out the line sortByMagnitude and add below this line a call to sortByLargestDepth. 
+	   - Run your program on any data file and you should see the earthquakes in sorted order from largest depth to smallest depth. 
+
+
+Assignment 2: Bubble Sort
+
+1) modify the QuakeSortInPlace class:
+	A) - Write the void method onePassBubbleSort
+	   - This method has two parameters( ArrayList of type QuakeEntry named quakeData, int named numSorted 
+	     "that represents the number of times this method has already been called on this ArrayList 
+	      and thus also represents the number of the elements that are guaranteed to already be where they belong when the ArrayList is sorted by magnitude."
+ 	   - This method makes one pass of bubble sort on the ArrayList.
+	   - It should take advantage of the fact that the last numSorted elements are already in sorted order.
+
+	B) - Write the void method sortByMagnitudeWithBubbleSort
+	   - This method has one parameter( ArrayList of type QuakeEntry named in)
+	   - If the ArrayList in has N elements in it, this method should call onePassBubbleSort N – 1 times to sort the elements in in.  
+
+	C) - Modify the testSort method 
+	   - comment out the line sortByLargestDepth, and add below this line a call to sortByMagnitudeWithBubbleSort. 
+	   - Run your program on any data file and you should see the earthquakes in sorted order from smallest to largest magnitude. 
+
+
+Assignment 3: Check for Completion
+
+1) modify the QuakeSortInPlace class:
+	A) - Write the method checkInSortedOrder 
+	   - This method has one parameter( ArrayList of type QuakeEntry named quakes)
+	   - This method returns true if the earthquakes are in sorted order by magnitude from smallest to largest. Otherwise this methods returns false.
+
+	B) - Write the void method sortByMagnitudeWithBubbleSortWithCheck
+	   - This method has one parameter( ArrayList of type QuakeEntry named in)
+	   - If the ArrayList in has N elements in it, this method should call onePassBubbleSort at most N – 1 times.
+	   - This method should call checkInSortedOrder and stop early if the ArrayList is already sorted.
+	   - This method should print how many passes were needed to sort the elements. 
+
+	C) - Modify the testSort method to call to sortByMagnitudeWithBubbleSortWithCheck. 
+
+	D) - Write the void method sortByMagnitudeWithCheck 
+	   - This method has one parameter( ArrayList of type QuakeEntry named in)
+	   - This method sorts earthquakes by their magnitude from smallest to largest using selection sort similar to the sortByMagnitude method.
+	   - This method should call checkInSortedOrder and stop early if the ArrayList is already sorted. 
+	   - This method should print how many passes were needed to sort the elements. For selection sort, one pass has exactly one swap.
+
+	E) - Modify the testSort method to call to sortByMagnitudeWithCheck.
