@@ -54,3 +54,21 @@
 - Project 1 - Filter Fun:
 <a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/Programming-Foundations-with-JavaScript-HTML-and-CSS/Week4/Exercises/project-1/README.md"> README file </a>
  
+ 
+## Course 2:  Java Programming : Principles of Software Design
+
+### Week 1: 
+
+- Week Notes: 
+<a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/Java-Programming-Principles-of-Software-Design/Week1/README.md"> README file </a>
+ 
+### Week 2:
+
+- Week Notes: 
+<a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/Java-Programming-Principles-of-Software-Design/Week2/README.md"> README file </a>
+ 
+### Week 3:
+
+- Week Notes: 
+<a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/Java-Programming-Principles-of-Software-Design/Week3/README.md"> README file </a>
+ 
