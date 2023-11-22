@@ -5,7 +5,7 @@
 ### Week 1: 
 
 - Week Notes: 
-<a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/Programming-Foundations-with-JavaScript-HTML-and-CSS/Week1/README.md"> README file </a>
+<a href="https://github.com/KanzyKhaled/Java-Programming-and-Software-Engineering-Fundamentals-Specialization-by-Duke-University/blob/main/1-Programming-Foundations-with-JavaScript-HTML-and-CSS/Week1/README.md"> README file </a>
  
 
 - Project 1 - My Interests First Web Page:
